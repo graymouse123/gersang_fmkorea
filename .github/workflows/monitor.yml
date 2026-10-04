@@ -1,9 +1,6 @@
 name: Gersang Board Monitor
 
 on:
-  schedule:
-    # 매 시간 0분에 실행 (하루 24회)
-    - cron: "45 * * * *"
   workflow_dispatch:
 
 permissions:
